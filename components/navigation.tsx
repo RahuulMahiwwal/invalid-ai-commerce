@@ -40,14 +40,12 @@ export default function Navigation() {
             </div>
 
             {/* Brand */}
-            <Link
-              href="/"
-              className={`text-[18px] md:text-[20px] font-[300] tracking-[0.35em] uppercase transition-all duration-300 ${
-                scrolled ? 'text-stone-900' : 'text-white'
-              }`}
-              style={{ fontFamily: 'var(--font-cormorant), Georgia, serif', letterSpacing: '0.4em' }}
-            >
-              INVALID
+            <Link href="/" className="flex items-center">
+              <img
+                src="/logo.jpg"
+                alt="INVALID"
+                className="h-10 md:h-12 w-auto"
+              />              
             </Link>
 
             {/* Right nav */}
